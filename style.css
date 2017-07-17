@@ -1,3 +1,80 @@
+#main { 
+	padding: 1% 0% 1% 0%;	
+	display: block;
+	margin: auto;
+	max-width: 100%;
+ }
+
+ h1	{
+ 	font-family: sans-serif;
+ 	text-align: center;
+ }
+
+ ul.nav	{
+ 	list-style-type: none;
+ 	display: block;
+ 	text-align: center;
+ }
+li.hover:hover {
+ 	background-color: yellow;
+ 	width: 150px;
+ 	margin: auto;
+ }
+ a.visited {
+ 	background-color: purple;
+ }
+
 body {
-	background-color: yellow;
+	background-image: url("DC_Logo.png"); 
+	background-repeat: no-repeat;
+}
+
+table {	
+	border: none;
+}
+
+ul.honorable, ul.honorablevillain {
+	border: 3px solid blue;
+	border-radius: 20px;
+	width: auto;
+	font-size: 20px;
+}
+footer {
+	padding-top: 10px;
+	text-align: center;
+}
+h2.index {
+	text-align: center;
+}
+p {
+	font-size: 14px;
+	font-family: sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+        display: center;
+        margin: 150px 0px 0px 0px;
+    }
+    body{
+  		width: auto;
+  		display: block;
+  		background-position: top center;
+    }
+	table {
+		max-width: 100%;
+		overflow-x: auto;
+		margin-left: 15%;
+	}
+	th.hide, td.hide {
+		visibility: collapse;
+	 }
+	 h2, ul, {
+	 	margin-left: 25%;
+	 }
+	 ul.nav {
+	 	margin-right: 20%; 
+	 }
+
 }

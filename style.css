@@ -54,7 +54,7 @@ p {
 @media only screen and (max-width: 600px) {
     h1 {
         font-size: 20px;
-        display: center;
+        align-content: center;
         margin: 150px 0px 0px 0px;
     }
     body{
@@ -70,7 +70,7 @@ p {
 	th.hide, td.hide {
 		visibility: collapse;
 	 }
-	 h2, ul, {
+	 h2, ul {
 	 	margin-left: 25%;
 	 }
 	 ul.nav {
